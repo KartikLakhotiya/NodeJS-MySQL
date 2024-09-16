@@ -21,12 +21,13 @@ USE mydatabase;
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100),
-  email VARCHAR(100)
+  email VARCHAR(100),
+  course VARCHAR(50)
 );
 
-INSERT INTO users (name, email) VALUES
-  ('John Doe', 'john@example.com'),
-  ('Jane Doe', 'jane@example.com');
+INSERT INTO users (name, email, course) VALUES
+  ('John Doe', 'john@example.com', 'MCA'),
+  ('Jane Doe', 'jane@example.com', 'B.Tech');
 ```
 
 ## Installation
