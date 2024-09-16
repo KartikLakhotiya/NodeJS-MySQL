@@ -2,7 +2,7 @@
 
 This project is a simple web application that fetches data from a MySQL database using a Node.js + Express backend and displays it in a React frontend using Axios. The frontend is built using Vite for a fast development experience.
 
-
+## Prerequisites
 Ensure you have the following installed on your system:
 
 - **Node.js** (v14 or above)
