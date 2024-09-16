@@ -1,4 +1,3 @@
-// frontend/src/App.jsx
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'
@@ -7,10 +6,9 @@ function App() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    // Fetch data from the backend using axios
     axios.get('http://localhost:5000/users')
       .then(response => {
-        setUsers(response.data); // Set the fetched data
+        setUsers(response.data);
       })
       .catch(error => {
         console.error('Error fetching users:', error);
